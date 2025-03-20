@@ -1,5 +1,3 @@
-// Import images
-import backIcon from "./back.png";
 import cartIcon from "./cart_icon.png";
 import dropdownIcon from "./dropdown_icon.png";
 import heroImage from "./hero.png";
@@ -7,25 +5,19 @@ import logo from "./logo.png";
 import menuIcon from "./menu_icon.png";
 import profileIcon from "./profile_icon.png";
 import searchIcon from "./search_icon.png";
+import backIcon from "./back.png";
+import jacketImage from "./jacketImage.jpg";
+import jeansImage from "./jeansImage.jpg";
+import hoodieImage from "./hoodieImage.jpg";
+import blazerImage from "./blazerImage.jpg";
+import joggersImage from "./joggersImage.jpg";
+import leatherJacketImage from "./leatherJacketImage.jpg";
+import shortsImage from "./shortsImage.jpg";
+import sweaterImage from "./sweaterImage.jpg";
+import graphicTeeImage from "./graphicTeeImage.jpg";
+import Classic_Cotton from "./Classic_Cotton.jpg";
 
-// Sample product data
-const products = [
-  { id: 1, name: "Product 1", price: 10, image: cartIcon },
-  { id: 2, name: "Product 2", price: 20, image: profileIcon },
-  { id: 3, name: "Product 3", price: 20, image: profileIcon },
-  { id: 4, name: "Product 4", price: 20, image: profileIcon },
-  { id: 5, name: "Product 5", price: 20, image: profileIcon },
-  { id: 6, name: "Product 6", price: 10, image: cartIcon },
-  { id: 7, name: "Product 7", price: 20, image: profileIcon },
-  { id: 8, name: "Product 8", price: 20, image: profileIcon },
-  { id: 9, name: "Product 9", price: 20, image: profileIcon },
-  { id: 10, name: "Product 10", price: 20, image: profileIcon },
-];
-
-// Export the data
-export { products };
-
-export const images = {
+export const assets = {
   backIcon,
   cartIcon,
   dropdownIcon,
@@ -34,4 +26,139 @@ export const images = {
   menuIcon,
   profileIcon,
   searchIcon,
+  jacketImage,
+  jeansImage,
+  hoodieImage,
+  blazerImage,
+  joggersImage,
+  leatherJacketImage,
+  shortsImage,
+  sweaterImage,
+  graphicTeeImage,
+  Classic_Cotton,
 };
+
+export const products = [
+  {
+    _id: "1",
+    name: "Classic Cotton T-Shirt",
+    description:
+      "A comfortable and stylish cotton t-shirt, perfect for casual wear.",
+    price: 19.99,
+    image: [Classic_Cotton],
+    category: "Clothing",
+    subCategory: "T-Shirts",
+    sizes: ["S", "M", "L", "XL"],
+    date: "2025-03-20",
+    bestseller: true,
+  },
+  {
+    _id: "2",
+    name: "Denim Jacket",
+    description: "A trendy denim jacket that adds a cool edge to your outfit.",
+    price: 49.99,
+    image: [jacketImage],
+    category: "Clothing",
+    subCategory: "Jackets",
+    sizes: ["M", "L", "XL"],
+    date: "2025-03-18",
+    bestseller: false,
+  },
+  {
+    _id: "3",
+    name: "Slim Fit Jeans",
+    description: "Stylish and comfortable slim-fit jeans for everyday wear.",
+    price: 39.99,
+    image: [jeansImage],
+    category: "Clothing",
+    subCategory: "Jeans",
+    sizes: ["30", "32", "34", "36"],
+    date: "2025-03-17",
+    bestseller: true,
+  },
+  {
+    _id: "4",
+    name: "Hooded Sweatshirt",
+    description: "Soft and warm hoodie for casual and sporty looks.",
+    price: 29.99,
+    image: [hoodieImage],
+    category: "Clothing",
+    subCategory: "Hoodies",
+    sizes: ["S", "M", "L", "XL"],
+    date: "2025-03-16",
+    bestseller: true,
+  },
+  {
+    _id: "5",
+    name: "Formal Blazer",
+    description:
+      "A sleek and elegant blazer for professional and formal occasions.",
+    price: 89.99,
+    image: [blazerImage],
+    category: "Clothing",
+    subCategory: "Blazers",
+    sizes: ["M", "L", "XL", "XXL"],
+    date: "2025-03-15",
+    bestseller: false,
+  },
+  {
+    _id: "6",
+    name: "Sports Joggers",
+    description: "Lightweight joggers designed for comfort and performance.",
+    price: 34.99,
+    image: [joggersImage],
+    category: "Clothing",
+    subCategory: "Pants",
+    sizes: ["S", "M", "L", "XL"],
+    date: "2025-03-14",
+    bestseller: false,
+  },
+  {
+    _id: "7",
+    name: "Leather Jacket",
+    description: "A stylish leather jacket for a classic and rugged look.",
+    price: 119.99,
+    image: [leatherJacketImage],
+    category: "Clothing",
+    subCategory: "Jackets",
+    sizes: ["M", "L", "XL"],
+    date: "2025-03-13",
+    bestseller: true,
+  },
+  {
+    _id: "8",
+    name: "Casual Shorts",
+    description: "Breathable and lightweight shorts for summer comfort.",
+    price: 24.99,
+    image: [shortsImage],
+    category: "Clothing",
+    subCategory: "Shorts",
+    sizes: ["M", "L", "XL"],
+    date: "2025-03-12",
+    bestseller: false,
+  },
+  {
+    _id: "9",
+    name: "Wool Sweater",
+    description: "Cozy wool sweater perfect for chilly days.",
+    price: 54.99,
+    image: [sweaterImage],
+    category: "Clothing",
+    subCategory: "Sweaters",
+    sizes: ["S", "M", "L", "XL"],
+    date: "2025-03-11",
+    bestseller: true,
+  },
+  {
+    _id: "10",
+    name: "Graphic Tee",
+    description: "Trendy t-shirt with a unique graphic print design.",
+    price: 22.99,
+    image: [graphicTeeImage],
+    category: "Clothing",
+    subCategory: "T-Shirts",
+    sizes: ["S", "M", "L", "XL"],
+    date: "2025-03-10",
+    bestseller: false,
+  },
+];
