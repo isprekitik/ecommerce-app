@@ -1,5 +1,7 @@
 import React from "react";
 import hero from "../assets/hero.png";
+// import aya from "../assets/aya.png";
+// import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -21,6 +23,22 @@ const Hero = () => {
         </div>
       </div>
       {/* Hero right side */}
+      {/* <motion.img
+        className="w-full sm:w-1/2 rounded-md"
+        src={aya}
+        alt=""
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 10, ease: "easeOut" }}
+      /> */}
+      {/* <motion.img
+        className="w-full sm:w-1/2 rounded-md"
+        src={aya}
+        alt=""
+        animate={{ y: [0, -50, 0] }}
+        transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+      /> */}
+
       <img className="w-full sm:w-1/2" src={hero} alt="" />
     </div>
   );
