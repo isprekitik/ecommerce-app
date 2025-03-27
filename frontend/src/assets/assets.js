@@ -16,6 +16,9 @@ import shortsImage from "./shortsImage.jpg";
 import sweaterImage from "./sweaterImage.jpg";
 import graphicTeeImage from "./graphicTeeImage.jpg";
 import Classic_Cotton from "./Classic_Cotton.jpg";
+import exchange_icon from "./exchange_icon.png";
+import quality_icon from "./quality_icon.png";
+import support_icon from "./support_icon.png";
 
 export const assets = {
   backIcon,
@@ -36,6 +39,9 @@ export const assets = {
   sweaterImage,
   graphicTeeImage,
   Classic_Cotton,
+  exchange_icon,
+  quality_icon,
+  support_icon,
 };
 
 export const products = [
