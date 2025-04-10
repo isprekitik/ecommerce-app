@@ -11,6 +11,9 @@ import exchange_icon from "./exchange_icon.png";
 import quality_icon from "./quality_icon.png";
 import support_icon from "./support_icon.png";
 import cross_icon from "./cross_icon.png";
+import star_icon from "./star_icon.png";
+import star_dull_icon from "./star_dull_icon.png";
+import bin_icon from "./bin_icon.png";
 
 // Product Main Images
 import jacketImage from "./jacketImage.jpg";
@@ -89,6 +92,9 @@ export const assets = {
   quality_icon,
   support_icon,
   cross_icon,
+  star_icon,
+  star_dull_icon,
+  bin_icon,
 };
 
 export const products = [
@@ -97,7 +103,7 @@ export const products = [
     name: "Classic Cotton T-Shirt",
     description:
       "A comfortable and stylish cotton t-shirt, perfect for casual wear.",
-    price: 19.99,
+    price: 19,
     image: [
       Classic_Cotton,
       Classic_Cotton1,
@@ -115,7 +121,7 @@ export const products = [
     _id: "2",
     name: "Denim Jacket",
     description: "A trendy denim jacket that adds a cool edge to your outfit.",
-    price: 49.99,
+    price: 49,
     image: [jacketImage, jacketImage1, jacketImage2, jacketImage3],
     category: "Men",
     subCategory: "Topwear",
@@ -127,7 +133,7 @@ export const products = [
     _id: "3",
     name: "Slim Fit Jeans",
     description: "Stylish and comfortable slim-fit jeans for everyday wear.",
-    price: 39.99,
+    price: 39,
     image: [jeansImage, jeansImage1, jeansImage2],
     category: "Men",
     subCategory: "Bottomwear",
@@ -139,7 +145,7 @@ export const products = [
     _id: "4",
     name: "Hooded Sweatshirt",
     description: "Soft and warm hoodie for casual and sporty looks.",
-    price: 29.99,
+    price: 29,
     image: [
       hoodieImage,
       hoodieImage1,
@@ -158,7 +164,7 @@ export const products = [
     name: "Formal Blazer",
     description:
       "A sleek and elegant blazer for professional and formal occasions.",
-    price: 89.99,
+    price: 89,
     image: [
       blazerImage,
       blazerImage1,
@@ -176,7 +182,7 @@ export const products = [
     _id: "6",
     name: "Sports Joggers",
     description: "Lightweight joggers designed for comfort and performance.",
-    price: 34.99,
+    price: 34,
     image: [
       joggersImage,
       joggersImage1,
@@ -195,7 +201,7 @@ export const products = [
     _id: "7",
     name: "Leather Jacket",
     description: "A stylish leather jacket for a classic and rugged look.",
-    price: 119.99,
+    price: 119,
     image: [
       leatherJacketImage,
       leatherJacketImage1,
@@ -213,7 +219,7 @@ export const products = [
     _id: "8",
     name: "Casual Shorts",
     description: "Breathable and lightweight shorts for summer comfort.",
-    price: 24.99,
+    price: 24,
     image: [
       shortsImage,
       shortsImage1,
@@ -238,7 +244,7 @@ export const products = [
     _id: "9",
     name: "Wool Sweater",
     description: "Cozy wool sweater perfect for chilly days.",
-    price: 54.99,
+    price: 54,
     image: [sweaterImage, sweaterImage1, sweaterImage2],
     category: "Women",
     subCategory: "Sweaters",
@@ -250,7 +256,7 @@ export const products = [
     _id: "10",
     name: "Graphic Tee",
     description: "Trendy t-shirt with a unique graphic print design.",
-    price: 22.99,
+    price: 22,
     image: [graphicTeeImage, graphicTeeImage1, graphicTeeImage2],
     category: "Men",
     subCategory: "Topwear",
