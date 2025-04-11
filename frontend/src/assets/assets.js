@@ -14,6 +14,10 @@ import cross_icon from "./cross_icon.png";
 import star_icon from "./star_icon.png";
 import star_dull_icon from "./star_dull_icon.png";
 import bin_icon from "./bin_icon.png";
+import gcash_logo from "./gcash_logo.png";
+import paymaya_logo from "./paymaya_logo.png";
+import banktransfer_logo from "./banktransfer_logo.png";
+import cashondelivery_logo from "./cashondelivery_logo.png";
 
 // Product Main Images
 import jacketImage from "./jacketImage.jpg";
@@ -95,6 +99,10 @@ export const assets = {
   star_icon,
   star_dull_icon,
   bin_icon,
+  gcash_logo,
+  paymaya_logo,
+  banktransfer_logo,
+  cashondelivery_logo,
 };
 
 export const products = [
